@@ -60,12 +60,18 @@ body {
 .button {
     background-color: #3882F6;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     color: white;
     padding: 5px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    cursor: pointer;
+}
+
+.button:hover {
+    color:#3882F6;
+    background-color: #F9FAF8;
 }
 
 .rectangular {
@@ -134,4 +140,21 @@ body {
     margin: 0 0 30px;
     font-weight: 300;
     font-size: 13px;
+}
+
+.button-inverted {
+    cursor: pointer;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.button-inverted:hover {
+    color:#3882F6;
+    background-color: #F9FAF8;
+    border-color: #3882F6;
 }
