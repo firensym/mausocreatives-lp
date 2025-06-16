@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 50px 50px 0 50px;
+    padding: 0 50px;
     width: 800px;
 }
 
@@ -32,7 +32,6 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding: 50px;
-    gap: 50px;
     width: 800px;
 }
 
@@ -81,7 +80,6 @@ body {
 .section-two-heading {
     color: #1F2937;
     font-size: 36px;
-    weight: 900;
 }
 
 .section-two-box {
@@ -105,26 +103,27 @@ body {
 }
 
 .section-three {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #E5E7EB;
     color: #1F2937;
-    font-style: italic;
+}
+
+.text {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px 50px;
 }
 
 .emphasis-big {
     font-size: 36px;
-    font-weight: 300;
-    max-width: 500px;
-    margin: 50px 20px 0 20px;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 0;
 }
 
 .emphasis-small {
     font-size: 18px;
-    text-align: end;
-    font-weight: 300;
-    margin-bottom: 50px;
+    font-weight: 600;
+    text-align: right;
 }
 
 .section-four {
@@ -133,22 +132,22 @@ body {
     justify-content: space-around;
     background-color: #3882F6;
     border-radius: 5px;
-    margin: 50px;
     padding: 20px;
     color: #F9FAF8;
     flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 750px;
     margin: 50px auto;
 }
 
 .action-bold {
     font-weight: bold;
-    margin: 0;
+    margin-bottom: 5px;
 }
 
 .action-small {
     font-size: 13px;
     margin-top: 5px;
+    text-align: right;
 }
 
 .button-inverted {
