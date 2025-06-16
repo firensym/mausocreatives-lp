@@ -4,33 +4,36 @@ body {
 
 .dark-section {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     background-color: #1F2937;
     color: #F9FAF8;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 100px;
     flex-wrap: wrap;
+    padding: 50px 50px 0 50px;
+    width: 800px;
 }
 
 .links {
     list-style-type: none;
     display: flex;
     gap: 50px;
+    padding-left: 0;
 }
 
 .subhead {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 50px 100px;
+    padding: 50px;
     gap: 50px;
+    width: 800px;
 }
 
 .subhead-left {
@@ -126,24 +129,26 @@ body {
 
 .section-four {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
     background-color: #3882F6;
     border-radius: 5px;
     margin: 50px;
-    padding: 5px;
+    padding: 20px;
     color: #F9FAF8;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 50px auto;
 }
 
 .action-bold {
     font-weight: bold;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .action-small {
     font-size: 13px;
     margin-top: 5px;
-    max width: 30px;
 }
 
 .button-inverted {
